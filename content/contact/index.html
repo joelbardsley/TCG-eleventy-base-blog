@@ -16,6 +16,7 @@ eleventyNavigation:
 						type="text"
 						class="form-control"
 						id="firstName"
+						name="firstName"
 						placeholder="e.g. John"
 					/>
 				</div>
@@ -26,6 +27,7 @@ eleventyNavigation:
 						type="text"
 						class="form-control"
 						id="lastName"
+						name="lastName"
 						placeholder="e.g. Doe"
 					/>
 				</div>
@@ -36,6 +38,7 @@ eleventyNavigation:
 						type="email"
 						class="form-control"
 						id="email"
+						name="email"
 						aria-describedby="emailHelp"
 					/>
 					<div id="emailHelp" class="form-text text-light">
@@ -44,10 +47,21 @@ eleventyNavigation:
 				</div>
 				<div class="mb-3">
 					<label for="message" class="form-label">Message</label>
-					<textarea class="form-control" id="message" rows="3"></textarea>
+					<textarea
+						class="form-control"
+						id="message"
+						name="message"
+						rows="3"
+					></textarea>
 				</div>
 				<div class="form-check mb-3">
-					<input class="form-check-input" type="checkbox" value="" id="terms" />
+					<input
+						class="form-check-input"
+						type="checkbox"
+						name="terms"
+						value=""
+						id="terms"
+					/>
 					<label class="form-check-label" for="terms">
 						I agree to miscellaneous terms and conditions
 					</label>
