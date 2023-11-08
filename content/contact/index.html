@@ -1,0 +1,59 @@
+---
+layout: layouts/home.njk
+eleventyNavigation:
+  key: Contact Me
+  order: 5
+---
+
+<div class="container">
+	<div class="row">
+		<div class="col-12 mx-auto">
+			<h2>Contact Me</h2>
+			<form name="contact" netlify>
+				<div class="mb-3">
+					<label for="firstName" class="form-label">First Name</label>
+					<input
+						type="text"
+						class="form-control"
+						id="firstName"
+						placeholder="e.g. John"
+					/>
+				</div>
+
+				<div class="mb-3">
+					<label for="lastName" class="form-label">Last Name</label>
+					<input
+						type="text"
+						class="form-control"
+						id="lastName"
+						placeholder="e.g. Doe"
+					/>
+				</div>
+
+				<div class="mb-3">
+					<label for="email" class="form-label">Email address</label>
+					<input
+						type="email"
+						class="form-control"
+						id="email"
+						aria-describedby="emailHelp"
+					/>
+					<div id="emailHelp" class="form-text text-light">
+						We'll never share your email with anyone else.
+					</div>
+				</div>
+				<div class="mb-3">
+					<label for="message" class="form-label">Message</label>
+					<textarea class="form-control" id="message" rows="3"></textarea>
+				</div>
+				<div class="form-check mb-3">
+					<input class="form-check-input" type="checkbox" value="" id="terms" />
+					<label class="form-check-label" for="terms">
+						I agree to miscellaneous terms and conditions
+					</label>
+				</div>
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		</div>
+	</div>
+</div>
