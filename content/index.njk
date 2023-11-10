@@ -22,6 +22,7 @@ numberOfProjectsToShow: 3
   <a class="btn btn-primary btn-lg" href="/contact"
     >Get in touch</a
   >
+</section>
 
 {% set projectslist = collections.projects | head(-1 * numberOfProjectsToShow) %}
 {% include "projectslist.njk" %}

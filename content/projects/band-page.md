@@ -2,7 +2,7 @@
 title: Band Page
 description: Homework task following an introductory session in Bootstrap.
 date: 2023-09-01
-imgSrc: /img/project-band-page.png
+imgSrc: /img/project-band-page.jpg
 imgAlt: Partial screenshot of Carpenters band page project, created with Bootstrap
 url: https://jbardy.com/band-page
 ---
