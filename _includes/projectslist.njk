@@ -1,9 +1,11 @@
-
-<ol reversed class="projectlist">
-{% for project in projectslist | reverse %}
-	<li class="projectlist-item{% if project.url == url %} projectlist-item-active{% endif %}">
-		<a href="{{ project.url }}" class="projectlist-link">{% if project.data.title %}{{ project.data.title }}{% else %}<code>{{ project.url }}</code>{% endif %}</a>
-		<time class="projectlist-date" datetime="{{ project.date | htmlDateString }}">{{ project.date | readableDate("LLLL yyyy") }}</time>
-	</li>
-{% endfor %}
-</ol>
+<section class="projects py-5">
+	<h2>Featured Projects</h2>
+	<ul class="list-group">
+		{% for project in projectslist | reverse %}
+			<li class="list-group-item">
+				<a href="{{ project.url }}" class="projectlist-link">{% if project.data.title %}{{ project.data.title }}{% else %}<code>{{ project.url }}</code>{% endif %}</a>
+			</li>
+		{% endfor %}
+	</ul>
+	<p><em>More to be added soon</em></p>
+</section>
