@@ -1,5 +1,5 @@
 module.exports = {
-	title: "Joel's Blog",
+	title: "Joel's Eleventy Site",
 	url: "https://app.netlify.com/sites/cerulean-conkies-89e9aa/",
 	language: "en",
 	description:

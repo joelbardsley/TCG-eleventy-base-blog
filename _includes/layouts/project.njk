@@ -3,5 +3,6 @@ layout: layouts/base.njk
 ---
 
 <h1>{{ title }}</h1>
-
+<img class="img-thumbnail" src={{imgSrc}}>
+<a class="btn btn-primary btn-lg my-4" href={{url}} target="_blank" noopener>View project</a>
 {{ content | safe }}
