@@ -1,5 +1,7 @@
 /* Defaults */
 :root {
+	--font-family-heading: "Quicksand", sans-serif;
+	--font-family-body: "Source Sans 3", sans-serif;
 }
 
 /* Global stylesheet */
@@ -9,6 +11,17 @@
 
 html,
 body {
+	font-family: var(--font-family-body);
+	font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: var(--font-family-heading);
+	font-weight: 700;
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
